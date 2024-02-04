@@ -148,7 +148,7 @@ function bravo () {
       img.style.transition = '4s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 300px)'
+      img.style.bottom = '-45px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -394,7 +394,7 @@ function bravo () {
       img.style.transition = '6s all';
       img.style.position = 'fixed';
       img.style.right = '-374px';
-      img.style.bottom = 'calc(-50% + 320px)';
+      img.style.bottom = '500px';
       img.style.zIndex = 999999;
   
       document.body.appendChild(img);
@@ -1901,7 +1901,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 300px)'
+      img.style.bottom = '-30px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -1958,7 +1958,7 @@ function bravo () {
       img.style.transition = '4s all'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 320px)'
+      img.style.bottom = '-30px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2015,7 +2015,7 @@ function bravo () {
       img.style.transition = '5s all'
       img.style.position = 'fixed'
       img.style.left = '-200px'
-      img.style.bottom = 'calc(-50% + 320px)'
+      img.style.bottom = '-40px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2119,7 +2119,7 @@ function bravo () {
   function homer () {
     "use strict"
   
-    let key = [144]
+    let key = [226]
     let ck = 0
     let max = key.length
   
@@ -2191,7 +2191,7 @@ function bravo () {
       img.style.transition = '7s all'
       img.style.position = 'fixed'
       img.style.left = '-1100px'
-      img.style.bottom = 'calc(-50% + 320px)'
+      img.style.bottom = '-40px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2248,7 +2248,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 310px)'
+      img.style.bottom = '80px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2492,7 +2492,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 340px)'
+      img.style.bottom = '-10px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2549,7 +2549,7 @@ function bravo () {
       img.style.transition = '13s all';
       img.style.position = 'fixed';
       img.style.right = '-374px';
-      img.style.bottom = 'calc(-50% + 320px)';
+      img.style.bottom = '-40px';
       img.style.zIndex = 999999;
   
       document.body.appendChild(img);
@@ -2668,7 +2668,7 @@ function bravo () {
       img.style.transition = '8s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 320px)'
+      img.style.bottom = '-15px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -2786,7 +2786,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 300px)'
+      img.style.bottom = '-40px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -3025,7 +3025,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = 'calc(-50% + 330px)'
+      img.style.bottom = '-20px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -3202,7 +3202,7 @@ function bravo () {
       img.style.transition = '13s all';
       img.style.position = 'fixed';
       img.style.right = '-374px';
-      img.style.bottom = 'calc(-50% + 280px)';
+      img.style.bottom = '-70px';
       img.style.zIndex = 999999;
   
       document.body.appendChild(img);
@@ -3438,7 +3438,7 @@ function bravo () {
       img.style.transition = '6s all linear'
       img.style.position = 'fixed'
       img.style.left = '-400px'
-      img.style.bottom = '0px'
+      img.style.bottom = '300px'
       img.style.zIndex = 999999
   
       document.body.appendChild(img)
@@ -4465,7 +4465,7 @@ function bravo () {
   function hiphop () {
     "use strict";
   
-    var key = [84];
+    var key = [193];
     var ck = 0;
     var max = key.length;
   
