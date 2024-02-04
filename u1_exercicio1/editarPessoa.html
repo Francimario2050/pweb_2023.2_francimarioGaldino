@@ -12,3 +12,95 @@
     />
     <title>PWeb - By Francimario</title>
   </head>
+  
+  <body>
+    <div class="w3-bar w3-black w3-xlarge">
+      <a href="index.html" class="w3-bar-item w3-button w3-mobile">Início</a>
+      <a href="adicionarPessoa.html" class="w3-bar-item w3-button w3-mobile"
+        >Adicionar Pessoa</a
+      >
+      <a href="listarPessoas.html" class="w3-bar-item w3-button w3-mobile"
+        >Listar Pessoas</a
+      >
+      <a href="noticias.html" class="w3-bar-item w3-button w3-mobile w3-right"
+        >Notícias</a
+      >
+      <a href="sobre.html" class="w3-bar-item w3-button w3-mobile w3-right"
+        >Sobre o site</a
+      >
+      <a href="contato.html" class="w3-bar-item w3-button w3-mobile w3-right"
+        >Contato</a
+      >
+    </div>
+
+    <div style="padding: 0 16px">
+      <h1>Formulário para editar pessoa:</h1>
+
+      <form action="listarPessoas.html" method="get">
+        <div class="grid">
+          <div>
+            <label for="text">Seu nomezinho*:</label>
+            <input
+              type="text"
+              id="text"
+              name="text"
+              placeholder="Nome de Primeira Pessoa"
+            />
+          </div>
+          <div>
+            <label for="text">e_Mail*:</label>
+            <input
+              type="text"
+              id="text"
+              name="text"
+              placeholder="primeira@primeira.com"
+            />
+            <small>Nunca divulgaremos :)</small>
+          </div>
+          <div>
+            <label for="date">
+              Data de Nascimento*:
+              <input type="date" id="date" name="date" />
+            </label>
+          </div>
+        </div>
+        <fieldset>
+          <p>Gênero*:</p>
+          <label for="radio-1">
+            <input type="radio" id="radio-1" name="radio" value="radio-1" />
+            Masculino
+          </label>
+          <label for="radio-2">
+            <input
+              type="radio"
+              id="radio-2"
+              name="radio"
+              value="radio-2"
+              checked
+            />
+            Feminino
+          </label>
+          <label for="radio-3">
+            <input type="radio" id="radio-3" name="radio" value="radio-3" />
+            Não informar
+          </label>
+        </fieldset>
+
+        <div class="grid">
+          <div>
+            <input type="submit" value="Adicionar!" />
+          </div>
+          <div>
+            <input
+              type="reset"
+              value="Limpar"
+              onclick="event.preventDefault()"
+            />
+          </div>
+        </div>
+
+        <p>*Campo obrigatório</p>
+      </form>
+    </div>
+  </body>
+</html>
